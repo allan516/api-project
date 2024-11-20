@@ -1,0 +1,101 @@
+<div class="col-md-8">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="form-group">
+        <label for="cep">CEP</label>
+        <input
+          type="text"
+          class="form-control"
+          id="cep"
+          placeholder="00000-000"
+          [(ngModel)]="cep.cep"
+        />
+      </div>
+    </div>
+    <div class="col-md-4">
+      <button class="botao btn btn-primary" type="button" (click)="buscar()">
+        Buscar
+      </button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8">
+      <div class="form-group">
+        <label for="logradouro">Endereço</label>
+        <input
+          type="text"
+          class="form-control"
+          id="logradouro"
+          placeholder="Endereço"
+          [(ngModel)]="cep.logradouro"
+        />
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3">
+      <div class="form-group">
+        <label for="numero">Número</label>
+        <input
+          type="text"
+          class="form-control"
+          id="numero"
+          placeholder="Número"
+          [(ngModel)]="cep.numero"
+        />
+      </div>
+    </div>
+
+    <div class="col-md-5">
+      <div class="form-group">
+        <label for="complemento">Complemento</label>
+        <input
+          type="text"
+          class="form-control"
+          id="complemento"
+          placeholder="Complemento"
+          [(ngModel)]="cep.complemento"
+        />
+      </div>
+    </div>
+    <div class="col-md-8">
+      <label for="bairro">Bairro</label>
+      <input
+        type="text"
+        class="form-control"
+        id="bairro"
+        placeholder="Bairro"
+        [(ngModel)]="cep.bairro"
+      />
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="form-group">
+        <label for="cidade">Cidade</label>
+        <input
+          type="text"
+          class="form-control"
+          id="cidade"
+          placeholder="Cidade"
+          [(ngModel)]="cep.localidade"
+        />
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="form-group">
+        <label for="uf">Estado</label>
+        <input
+          type="text"
+          class="form-control"
+          id="uf"
+          placeholder="Estado"
+          [(ngModel)]="cep.uf"
+        />
+      </div>
+    </div>
+  </div>
+</div>
