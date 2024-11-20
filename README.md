@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <body>
-  <h1>Consulta de CEP com Angular</h1>
+  <h1>Consumo de API com Angular</h1>
   <p>
     Este projeto é uma aplicação Angular que consome a API 
     <a href="https://viacep.com.br" target="_blank">ViaCEP</a> para buscar dados de endereços a partir de um CEP informado.
