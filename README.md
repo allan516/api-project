@@ -36,44 +36,6 @@
   
   <hr>
 
-  <h2>Como Executar o Projeto</h2>
-  <h3>1. Clonar o Repositório</h3>
-  <pre>
-    <code>
-git clone https://github.com/allan516/api-project.git
-    </code>
-  </pre>
-  <h3>2. No terminal</h3>
-  <pre>
-    <code>
-cd api-project
-    </code>
-  </pre>
-  <h3>3. Instalar Dependências</h3>
-  <p>Inicie e instale as dependências do projeto com o comando:</p>
-    <pre>
-    <code>
-npm init -y
-    </code>
-  </pre>
-
-  <pre>
-    <code>
-npm install
-    </code>
-  </pre>
-
-  <h3>4. Executar a Aplicação</h3>
-  <p>Inicie o servidor de desenvolvimento com:</p>
-  <pre>
-    <code>
-npx ng serve
-    </code>
-  </pre>
-  <p>Acesse no navegador: <a href="http://localhost:4200" target="_blank">http://localhost:4200</a>.</p>
-  
-  <hr>
-
   <h2>API Utilizada</h2>
   <p>
     A aplicação utiliza a API pública <a href="https://viacep.com.br" target="_blank">ViaCEP</a> para obter informações de endereço com base no CEP.
